@@ -1,6 +1,6 @@
 <template>
   <div style="display: flex; align-items: center; justify-content: center">
-    <img src="https://thecatapi.com/api/images/get?format=src&type=gif" class="image" v-if="isShow" @click="onClick" />
+    <img src="https://thecatapi.com/api/images/get?format=src&type=gif" class="image" v-if="isShow" @click="onClick" style="cursor: pointer" />
     <div v-else>loading...</div>
   </div>
 </template>
@@ -16,9 +16,3 @@ function onClick() {
   }, 500)
 }
 </script>
-
-<style scoped>
-.image {
-  cursor: pointer;
-}
-</style>
