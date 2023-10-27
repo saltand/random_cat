@@ -13,6 +13,6 @@ function onClick() {
   isShow.value = false
   setTimeout(() => {
     isShow.value = true
-  }, 500)
+  }, 1000)
 }
 </script>
