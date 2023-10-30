@@ -8,7 +8,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const loading = ref(false)
+const loading = ref(true)
 const src = ref('https://thecatapi.com/api/images/get?format=src&type=gif')
 
 function onClick() {
